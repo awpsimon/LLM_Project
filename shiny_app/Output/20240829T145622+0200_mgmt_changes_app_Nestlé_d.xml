@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="iso-8859-15" ?>
+<NewsML>
+<NewsEnvelope>
+      <DateAndTime>20240829T145622+0200</DateAndTime>
+      <NewsService FormalName="AWP Robot"/>
+      <TransmissionID>34</TransmissionID>
+</NewsEnvelope>
+
+<NewsItem>
+  <Identification>
+    <NewsIdentifier>
+       <ProviderId>awp.news</ProviderId>
+       <DateId>20240829T145622+0200</DateId>
+       <NewsItemId>34</NewsItemId>
+       <RevisionId PreviousRevision="0" Update="N">1</RevisionId>
+       <PublicIdentifier>urn:newsml:awp.news:20240829T145622+0200:34:1</PublicIdentifier>
+    </NewsIdentifier>
+    </Identification>
+
+  <NewsManagement>
+    <NewsItemType FormalName="News"/>
+    <FirstCreated>20240829T145622+0200</FirstCreated>
+    <ThisRevisionCreated>20240829T145622+0200</ThisRevisionCreated>
+    <Status FormalName="Usable"/>
+    <Urgency FormalName="3"/>
+  </NewsManagement>
+
+ <NewsComponent> 
+<NewsLines>
+    <HeadLine>Nestlé: Laurent Freixe wird neuer CEO, Mark Schneider geht</HeadLine>
+<NewsLine><NewsLineType FormalName="ByLine"/><NewsLineText></NewsLineText></NewsLine>
+<NewsLine><NewsLineType FormalName="StoryType"/><NewsLineText></NewsLineText></NewsLine>
+
+    </NewsLines>
+
+  <AdministrativeMetadata>
+    <Provider>
+       <Party FormalName="AWP"/>
+    </Provider>
+    <Source>
+       <Party FormalName="AWP"/>
+    </Source>
+    </AdministrativeMetadata>
+
+  <DescriptiveMetadata>
+    <Language FormalName="de"/>
+
+  <Location>
+<!-- Country Structured -->
+<Property FormalName="Country" Value="CH"/>
+</Location>
+
+<!-- Company Relations -->
+<Property FormalName="FullName" Value="Nestlé SA" />
+
+<!-- relations -->
+  <Property FormalName="Wire" Value="K"/><Property FormalName="Subject" Value="MGT"/>
+    </DescriptiveMetadata>
+
+<ContentItem>
+			<Format Scheme="IptcFormat" FormalName="NITF"/>
+    <Characteristics>
+    <Property FormalName="FormatVersion" Value="3.1"/>
+    </Characteristics>
+    <DataContent>
+    <nitf>
+    <body>
+    <body.content>Zürich (awp) - Der Verwaltungsrat von Nestlé hat Laurent Freixe zum neuen Chief Executive Officer (CEO) ernannt. Wie der Nahrungsmittelkonzern am Donnerstag mitteilte, tritt Freixe die Nachfolge von Mark Schneider an, der das Unternehmen verlässt. 
+
+Freixe, derzeit CEO der Zone Lateinamerika, übernimmt den Posten per 1. September 2024. Er soll zudem an der Generalversammlung 2025 zur Wahl in den Verwaltungsrat vorgeschlagen werden, heisst es in der Mitteilung weiter.
+
+Der scheidende CEO Mark Schneider habe sich entschieden, seine Rollen als Konzernchef und Verwaltungsrat "zur Verfügung zu stellen", so Nestlé. Schneider war acht Jahre lang an der Spitze des Unternehmens.
+
+Verwaltungsratspräsident Paul Bulcke lobte Freixe als "begabte Führungspersönlichkeit mit strategischem Scharfsinn". Der designierte CEO verfüge über weitreichende Erfahrung in Nestlés Märkten sowie ein tiefgehendes Verständnis für Konsumenten.
+
+awp-robot/mf
+</body.content>
+    </body>
+    </nitf>
+    </DataContent>
+    </ContentItem>
+    
+    </NewsComponent>
+    
+    </NewsItem>
+    
+    
+    </NewsML>

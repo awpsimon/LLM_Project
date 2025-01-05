@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="iso-8859-15" ?>
+<NewsML>
+<NewsEnvelope>
+      <DateAndTime>Insert_DateAndTime</DateAndTime>
+      <NewsService FormalName="AWP Robot"/>
+      <TransmissionID>Insert_ID</TransmissionID>
+</NewsEnvelope>
+
+<NewsItem>
+  <Identification>
+    <NewsIdentifier>
+       <ProviderId>awp.news</ProviderId>
+       <DateId>Insert_DateAndTime</DateId>
+       <NewsItemId>Insert_ID</NewsItemId>
+       <RevisionId PreviousRevision="0" Update="N">1</RevisionId>
+       <PublicIdentifier>urn:newsml:awp.news:Insert_DateAndTime:Insert_ID:1</PublicIdentifier>
+    </NewsIdentifier>
+    </Identification>
+
+  <NewsManagement>
+    <NewsItemType FormalName="News"/>
+    <FirstCreated>Insert_DateAndTime</FirstCreated>
+    <ThisRevisionCreated>Insert_DateAndTime</ThisRevisionCreated>
+    <Status FormalName="Insert_Status"/>
+    <Urgency FormalName="3"/>
+  </NewsManagement>
+
+ <NewsComponent> 
+<NewsLines>
+    <HeadLine>Insert_Headline</HeadLine>
+<NewsLine><NewsLineType FormalName="ByLine"/><NewsLineText>Insert_Byline</NewsLineText></NewsLine>
+<NewsLine><NewsLineType FormalName="StoryType"/><NewsLineText>Insert_Storytype</NewsLineText></NewsLine>
+
+    </NewsLines>
+
+  <AdministrativeMetadata>
+    <Provider>
+       <Party FormalName="AWP"/>
+    </Provider>
+    <Source>
+       <Party FormalName="AWP"/>
+    </Source>
+    </AdministrativeMetadata>
+
+  <DescriptiveMetadata>
+    <Language FormalName="Insert_Language"/>
+
+  <Location>
+<!-- Country Structured -->
+Insert_Countries
+</Location>
+
+<!-- Company Relations -->
+Insert_Companies
+
+<!-- relations -->
+  <Property FormalName="Wire" Value="Insert_Channel"/>Insert_Relations
+    </DescriptiveMetadata>
+
+<ContentItem>
+			<Format Scheme="IptcFormat" FormalName="NITF"/>
+    <Characteristics>
+    <Property FormalName="FormatVersion" Value="3.1"/>
+    </Characteristics>
+    <DataContent>
+    <nitf>
+    <body>
+    <body.content>Insert_Text
+</body.content>
+    </body>
+    </nitf>
+    </DataContent>
+    </ContentItem>
+    
+    </NewsComponent>
+    
+    </NewsItem>
+    
+    
+    </NewsML>
