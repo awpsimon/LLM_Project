@@ -1,0 +1,3 @@
+[submodule "awptools"]
+	path = awptools
+	url = https://github.com/awp-finanznachrichten/awptools
