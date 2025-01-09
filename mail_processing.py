@@ -13,7 +13,7 @@ import re
 import concurrent.futures
 import sys
 
-test = False
+test = True
 
 ###############
 # Preparation #
